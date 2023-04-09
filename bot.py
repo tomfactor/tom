@@ -5,15 +5,15 @@ from pyromod import listen
 
 bot = Client(
     "mo",
-    api_id=8186557,
-    api_hash="efd77b34c69c164ce158037ff5a0d117",
-    bot_token="6267386255:AAFUAJ8emYpsKd7TWl9v_ugy_40lGFlDHfU",
+    api_id=9157919,
+    api_hash="b90c282e584222babde5f68b5b63ee3b",
+    bot_token="5671865882:AAFMpMUYPvexNnT2HIsgaIYxeQTWWcWdSec",
     plugins=dict(root="Maker")
     )
 
 async def start_bot():
     print("[INFO]: STARTING BOT CLIENT")
     await bot.start()
-    UU_X9 = "MohamedHelal_l"
+    UU_X9 = "DEV_TOM"
     await bot.send_message(UU_X9, "**تم تشغيل الصانع بنجاح ...🚦**")
     await idle()
