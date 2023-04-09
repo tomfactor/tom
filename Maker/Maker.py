@@ -3,11 +3,11 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup
 
 
-API_ID = int("8186557")
-API_HASH = "efd77b34c69c164ce158037ff5a0d117"
+API_ID = int("9157919")
+API_HASH = "b90c282e584222babde5f68b5b63ee3b"
 Bots = []
 off =None
-ch = "UI_SB"
+ch = "PP_G3"
 DEVS = ["DEV_TOM", "dr_criss", "C1_I_I", "devpokemon"]
 @Client.on_message(filters.private)
 async def me(client, message):
